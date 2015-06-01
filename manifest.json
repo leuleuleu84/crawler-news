@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Tong hop tin",
+  "version": "1.0",
+  "description": "Tu dong tong hop tin tuc   ",
+  "icons": {
+    "48": "img/48NEWS.png",
+    "128": "img/128NEWS.png",
+    "16": "img/16NEWS.png"
+  },
+  "browser_action": {
+    "default_icon": "img/NEWS.png",
+    "default_title": "Press the button to see more actions"
+  },
+  "background": {
+    // "page": "background.html"
+    "scripts":["background.js"]
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "*://*/*",
+    "notifications"
+  ]
+}

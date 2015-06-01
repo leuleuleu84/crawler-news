@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#category{
+	width:860px;
+	margin-top:200px;
+	margin:auto;}
+	
+#td{
+	width:5%;
+	height:65px;
+	margin:auto;
+}
+	
+.box{
+	width:135px;
+	height:155px;
+}
+
+.box:hover .shakira{
+    top:-35px;
+}
+
+.box .shakira-header-1{
+    font-size:16pt;
+    padding: 6px 7px;
+}
+
+.box img{
+	margin:20px 20px;
+	width:90px;
+	height:90px;
+}
+
+#tinnoibat img{
+	width:200px;
+	height:200px;
+	padding:55px 24px;
+}
+
+#tinnoibat{
+	width:255px;
+	height:322px;}
+	
+
+#thegioi{
+	width:255px;
+	height:155px;}
+	
+#thegioi img{
+	margin:10px 32px;
+	width:191px;
+	height:100px;
+	}

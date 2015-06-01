@@ -1,0 +1,166 @@
+body {
+	background-color:#fff;
+	margin:0;
+	position:relative;
+}
+
+.body{
+	margin:auto;
+    width:1050px;}
+
+/* navbar - html*/
+#navbar{
+	width:100%;
+	height:60px;
+    padding-left: 95px;
+    background-color: #231423;
+	}
+	
+#bar-top{
+    width: 1200px;
+	position:relative;
+}
+
+#bar-bottom{
+    width: 1200px;
+	position:relative;
+	z-index:99999;
+    background-color: #333;
+}
+.ten2{
+        height:10px;
+    }
+.ten{
+		width:76px;
+		height:45px;
+		background-color:#033;
+		float:left;
+		color:#FFF;
+        border: 1px;
+        padding-top:5px;
+        padding-bottom: 5px;
+}
+/*end-navbar */
+
+
+/* ska */
+.shakira-box-nav{
+    width:76px;
+    height: 10px;    
+    float:left;
+        
+}
+
+.shakira-box-nav:hover .shakira-content{
+    top:15px;
+}
+.shakira-box-nav .shakira-content{
+    height:40px;
+    top:-110px;
+    position:relative;
+    color:#FFF;
+    transition:top 0.7s;
+    -moz-transition:top 0.7s;
+    -webkit-transition:top 0.7s;
+    -o-transition:top 0.7s;
+    -ms-transition:top 0.7s;
+    z-index:10;
+}
+
+.tinnoibat{
+    background-color:#009933;}
+    
+.thegioi{
+    background-color:#06F;}
+
+/* end */
+
+
+
+/*Feed*/
+.NewsFeedControl_id_1 {
+	padding: 10px 36px;
+    float:left;
+}
+
+#NewsFeedControl_id_2{
+    padding: 10px 36px;
+    float:left;
+}
+
+
+			.parent_box
+                	{
+                        border: 2px solid #000;
+                        box-shadow: 3px 3px #999;
+						display:block;
+						position:relative;
+						border-radius:10px;
+						width:180px;
+						float:left;
+						height:230px;
+						margin:4px;
+						background:white;
+						overflow:hidden;}
+      	
+                .box-header{
+                    position:absolute;
+                    height:240px;
+                    left:0px;
+                    width:100%;
+                    background-color: rgba(3,3,3,0);
+                    z-index:12;
+                    margin-top: 140px;
+                }
+                .box-header:hover h3,.box-hearder:hover .pubDate{
+                    color: #000;
+                }
+                .box
+                {   
+				    position:relative;
+                    font:16px Verdana;
+                     text-align: justify;
+                     transition:top 9s;
+                     -o-transition:top 9s;
+                     -moz-transition:top 9s;
+                     -webkit-transition:top 9s;
+                    background:white;
+
+                     
+                }
+              
+                a{  
+                    background-color: rgba(3,3,3,0.5);
+                    text-decoration:none;
+                    color:black;
+                    display:block;
+                }
+                h4
+                {
+                    color:#fff;
+                    font: Bold 12px Arial;
+                }
+
+                /* body>a{
+                    diplay:block;
+                } */
+                .pubDate
+                {
+                    margin:10px;
+                    color:#fff;
+                    font:italic 12px Arial;
+                }
+				
+.topbar{	
+	margin:50px;
+	width:1080px;
+	height:100px;
+}
+
+/*end */
+
+
+.box a img{
+    width: 180px;
+    height: 230px;
+}
